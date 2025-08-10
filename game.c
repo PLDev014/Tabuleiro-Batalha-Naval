@@ -76,7 +76,7 @@ void print_Board(int board[BOARD_SIZE][BOARD_SIZE]) {
             } else {
                 printf("%d ", board[i][j]); // Para qualquer outro valor (apenas para depuração, se necessário)
             }
-            i++;//incrementador para não compromenter a condição do loop inicial
+            i++;//incrementador para não comprometer a condição do loop inicial
         }
         printf("\n");
     }
