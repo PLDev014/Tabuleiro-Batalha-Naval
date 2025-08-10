@@ -63,7 +63,7 @@ void print_Board(int board[BOARD_SIZE][BOARD_SIZE]) {
         if(i<BOARD_SIZE){//condição para alinhamento das colunas
         printf("%d | ", i);// Cabeçalho das linhas
         }else{
-        printf("%d| ", i);// a partir daqui alinhamento das colunas ocorre
+        printf("%d| ", i);// a partir daqui o realinhamento das colunas ocorre
         }
         for (int j = 0; j < BOARD_SIZE; j++) {
             i--;//decrementador para atribuir valor da matriz corretamente no if dentro do loop
